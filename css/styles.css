@@ -126,12 +126,16 @@ body {
   font-weight: 500;
   line-height: 1.1;
   font-size: 14px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--dark-font-color);
 }
 .auth-nav .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  padding-top: 32px;
+  padding-bottom: 32px;
   letter-spacing: 0.02em;
   color: var(--desc-font-color);
 }
@@ -278,8 +282,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .our-teams-description {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px;
   text-align: center;
 }
 /* footer
@@ -321,13 +324,14 @@ body {
 /* portfolio
    ========================================================================== */
 .section-portfolio {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .portfolio-nav {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
+  gap: 8px;
 }
 .portfolio-list {
   display: flex;
@@ -373,6 +377,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  margin-bottom: 4px;
   letter-spacing: 0.06em;
 
   color: var(--dark-font-color);
